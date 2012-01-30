@@ -1,0 +1,20 @@
+Water tank level meter
+======================
+
+This is an Arduino project that uses an LV-MaxSonar-EZ4 MB1040 ultrasonic rangefinder to measure water level.  The signal goes to an Arduino Uno and information is transmitted via a WRL-10535 RF Link Transmitter (315MHz).  An RF receiver listens to the signal and displays the level on an LCD-09351 Serial Graphic LCD (128x64).
+
+The physical configuration is:
+
+    _________________________     ______________    _________________
+    |                        |    |             |   |                |
+    | Ultrasonic rangefinder |----| Arduino Uno |---| RF Transmitter |
+    |________________________|    |_____________|   |________________|
+                                                            ::
+                                                            ::...
+                                                               ::
+                                                               ::
+        _____________________     ______________    _________________
+        |                    |    |             |   |                |
+        | Serial LCD display |----| Arduino Uno |---| RF Receiver    |
+        |____________________|    |_____________|   |________________|
+

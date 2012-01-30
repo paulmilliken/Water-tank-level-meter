@@ -1,2 +1,6 @@
 Part, vendor, part number, description
 Plug, RS, 473-458 , "Connector,PCB,IDT,inter PCB,0.1in pitch housing,24 awg,10 way"
+Ultrasonic rangefinder, Sparkfun, SEN-08504, "Maxbotix LV-EZ4 range-finder"
+Display, Sparkfun, LCD-09351, "Serial graphic LCD"
+"RF receiver", Sparkfun, WRL-10533, "RF link receiver - 4800bps(315MHz)"
+"RF transmitter", Sparkfun, WRL-10535, "RF link transmitter - (315MHz)"
